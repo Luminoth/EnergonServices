@@ -5,11 +5,18 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalServices", "ExternalServices\ExternalServices.csproj", "{54C96AED-0529-4ABD-8A29-84BE5EAF2DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalServices", "InternalServices\InternalServices.csproj", "{41EB1D7B-72CF-482C-887E-09912BF506A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternalServices", "InternalServices\InternalServices.csproj", "{41EB1D7B-72CF-482C-887E-09912BF506A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesCore", "ServicesCore\ServicesCore.csproj", "{129A71B2-A1CE-4742-B564-800B93B087BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesCore", "ServicesCore\ServicesCore.csproj", "{129A71B2-A1CE-4742-B564-800B93B087BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesTest", "ServicesTest\ServicesTest.csproj", "{DBD6D17F-6DF0-4B26-83D4-2CA52F45BD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D79829D-F71E-4B37-A29E-672C5DA16077}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
